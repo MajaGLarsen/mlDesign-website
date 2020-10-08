@@ -1,0 +1,111 @@
+/* Frontpage style */
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: #3e3e3e;
+  background-image: url("../img/homepage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vertical {
+  border-left: 2px solid #5e5e5e;
+  height: 600px;
+  position: absolute;
+  bottom: 8%;
+  left: 70%;
+}
+
+/*Styling for ml-design brand */
+.ml-design {
+  position: relative;
+  left: 72%;
+  font-family: 'Times New Roman', Times, serif;  
+}
+
+.ml-design h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.ml-design p {
+  font-size: 23px;
+  margin-top: 0px;
+}
+
+/*Styling for navigation bar*/
+.home-navbar { 
+  flex-direction: relative;
+  position: relative;
+  left: 72%;
+  width: 20%;
+  padding-top: 10%;
+}
+
+.main-headings {
+  color: #4e4e4e;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 70px;
+}
+
+/*hover over links i navbar og dropdown*/
+.home-navbar a:hover {
+  background-color: #F0A59C;
+}
+
+
+/*alle unordered list (display:none - fjerner hele navbar)*/
+.home-navbar ul {
+  list-style: none;
+}
+
+.home-navbar li {
+  position: relative;
+  width: 100%;
+}
+
+/*At dropdown kommer frem, når man hover over projects*/
+.home-navbar li:hover .home-nav-dropdown > li {
+  display: block;
+  top: 0;
+}
+
+/*dropdown menu styling*/
+.home-nav-dropdown {
+  position: absolute;
+  flex-direction: column;
+  width: 80%;
+  background-color: #F4D3CF;
+  border-radius: 2px 2px 10px 10px;
+  padding-left: 0;
+  margin-left: 30px;
+  margin-top: -18px;
+  text-align: center;
+  z-index: 1;
+}
+
+.home-nav-dropdown li {
+  display: none;
+  top: 0px;   
+}
+
+.home-nav-dropdown li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #4e4e4e;
+  line-height: 35px;
+  
+}
+
+.nav-under-headings {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  padding-top: 3px;
+}
+
+
+

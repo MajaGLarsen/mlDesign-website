@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #4e4e4e;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.site-header {
+    width: 100%;
+    text-align: center;
+   
+}
+
+.first-row {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-row {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.flow-box {
+    width: 30%;
+    height: 450px;
+    text-align: center;
+}
+
+img {
+    height: 250px;
+}

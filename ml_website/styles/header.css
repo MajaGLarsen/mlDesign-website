@@ -1,0 +1,130 @@
+/*Flexbox container*/
+.nav-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    color: #4e4e4e;
+}
+
+/*Left side of flexbox*/
+.nav-left-bar {
+    width: 75%;
+    height: 175px;
+    flex: 4;
+}
+
+.ml-design {
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;  
+    height: 110px;
+}
+
+.ml-design-header {
+    font-size: 60px;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: 500;
+    top: 10p;
+    margin-top: 0px;
+}
+
+.ml-design p {
+    font-size: 23px;
+    margin-top: 0px;
+}
+
+
+/*Navbar*/
+.navbar {
+    height: 40px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 0px;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4e4e4e;
+    height: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/*hover over links i navbar og dropdown*/
+.navbar a:hover {
+    background-color: #F0A59C;
+}
+
+/*special styling for "Fourth semestr" så den har radius ved hover*/
+.nav-bottom-dropdown:hover {
+    border-radius: 0px 0px 10px 10px;   
+}
+
+/*alle unordered list (display:none - fjerner hele navbar)*/
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+  
+.navbar li {
+    position: relative;
+    width: 100%;
+} 
+
+/*At dropdown kommer frem, når man hover over projects*/
+.navbar li:hover .nav-dropdown > li {
+    display: block;
+    top: 0;
+}
+
+/*dropdown menu styling*/
+.nav-dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F4D3CF;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 0;
+}
+
+.nav-dropdown li {
+    display: none;
+    top: 0px;  
+}
+
+.nav-active {
+    background-color: #F7EBE9;
+}
+
+.nav-bottom-active {
+    border-radius: 0px 0px 10px 10px;
+    background-color: #F7EBE9;
+}
+
+/*Right side og flexbox*/
+.nav-right-bar {
+    width: 5%;
+    height: 150px;
+}
+
+.header-picture {
+    height: 175px;
+    left: 65%;
+    position: relative;
+    overflow: hidden; 
+}
+
+ /*Horizontal line under navbar*/
+.nav-underline {
+    position: relative;
+    border-top: 2px solid #4e4e4e;
+    width: 72%;
+    left: 12%;
+    z-index: -1;
+}
+

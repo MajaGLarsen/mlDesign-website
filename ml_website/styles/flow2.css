@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #3e3e3e;
+}
+
+.flow2-site-header {
+    text-align: center;
+}
+
+.flow2-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.flow2-left-side, .flow2-right-side {
+    height: 400px;
+}
+
+/*Left side of container*/
+.flow2-left-side {
+    display: flex;
+    flex: 3;
+}
+
+/*Left side picture of website*/
+figure {
+    margin: 0;
+    margin-top: 9px;
+}
+
+.flow2-website-figure {
+    margin-left: 50px;
+}
+
+.flow2-website-img {
+    height: 300px;
+}
+
+.flow2-website-caption {
+    width: 80%;
+}
+
+.flow2-personal-description {
+    width: 100%;
+}
+
+/*Straight line in containter, over bottom part*/
+.flow2-straight-line {
+    border-bottom: 7px solid #F7EBE9;
+    width: 100%;
+}
+
+/*Right side of container*/
+.flow2-right-side {
+    display: flex;
+    flex: 3;
+}
+
+.flow2-flow-description-header {
+    margin-top: 0;
+}
+
+.flow2-tool-list > li {
+    margin-left: 20px;
+}
+
+.flow2-tool-list-header {
+    font-size: 20px;
+}
+
+.flow2-tools-links {
+    color: #3e3e3e;
+}
+
+.flow2-task-header {
+    margin-top: 0;
+}
+
+/*Bottom side of the container*/
+.flow2-bottom {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.flow2-tool-list-header {
+    margin-left: -20px;
+}
+
+.flow2-tool-list {
+    margin-left: -20px;
+}
+
+.flow2-task-description {
+    line-height: 30px;
+    width: 70%;
+}

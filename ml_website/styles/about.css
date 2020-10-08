@@ -1,0 +1,82 @@
+body {
+    color: #4e4e4e;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;  
+}
+
+figure {
+    margin: 0;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*Pink box with site header*/
+.main-header-site {
+    background-color: #F7EBE9;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+.about-left-bar, .about-right-bar {
+    width: 23%;
+    height: 400px;
+    line-height: 30px;
+}
+
+/*Left side of container*/
+.about-left-side-picture, .about-right-side-picture {
+    height: 300px;
+    position: relative;
+    margin-top: 25px;
+    border-radius: 2px;
+}
+
+/*Middle bar of container*/
+.about-middle-bar {
+    width: 48%;
+    height: 500px;
+    line-height: 30px;
+}
+      
+/*Right side of container*/
+
+.about-random-facts > li {
+    margin-left: 20px;
+}
+
+.about-straight-line {
+    border-bottom: 8px solid #F7EBE9;
+    width: 100%;
+}
+
+
+/*Creative vs logic side - second part of the About container*/
+.about-creative-side, .about-logic-side, .creative-vs-logic {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.about-creative-side, .about-logic-side {
+    width: 25%;
+}
+  
+
+.creative-vs-logic-cirkle {
+    height: 400px;
+    margin-top: -50px;
+}
+   
+.about-creative-logic-list > li {
+    list-style-type: none;
+}

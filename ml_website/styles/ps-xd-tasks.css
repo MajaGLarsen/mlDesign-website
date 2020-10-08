@@ -1,0 +1,76 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #3e3e3e;
+}
+
+.ps-xd-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.site-header {
+    width: 100%;
+    text-align: center;
+    margin: 30px;
+}
+
+.ps-xd-tools-used {
+    margin-left: -20px;
+}
+
+.xd-link {
+    color: #1e1e1e;
+}
+
+.before-edit, .after-edit, .describing-text {
+    width: 30%;
+}
+
+.describing-text {
+    margin-top: -20px;
+}
+
+.xd-phone-edition {
+    margin-left: 90px;
+    margin-right: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    height: 250px;
+}
+
+.photo-xd-straight-line {
+    border-bottom: 7px solid #F7EBE9;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.task-description {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0;
+}
+
+.minimum-requirements-task {
+    line-height: 30px;
+    padding: 0;
+}
+
+.minimum-requirements-task > li {
+    margin-left: 20px;
+}
+
+.task-description-xd {
+    width: 60%;
+    line-height: 30px;
+}
+
+
+

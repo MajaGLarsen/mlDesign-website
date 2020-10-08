@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: #3e3e3e;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*Pink box with site header*/
+.contact-site-header {
+    text-align: center;
+    background-color: #F7EBE9;
+    color: #3e3e3e;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+/*Left side of the container*/
+.contact-left-side {
+    flex: 3;
+    height: 550px;
+    margin-left: 20px;
+}
+
+.contact-box-header {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact-mail, .contact-subject, .contact-message {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.contact-mail, .contact-subject {
+    width: 200px;
+    height: 30px;
+}
+
+.contact-message {
+    width: 500px;
+    height: 300px;
+}
+
+/*right side of the container*/
+.contact-right-side {
+    flex: 2;
+    height: 550px;
+    margin-right: 30px;
+}
+
